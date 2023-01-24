@@ -2,20 +2,20 @@
 
 # Alura MIDI
 
-O Alura MIDI é um instrumento musical de interface digitial (MIDI), que reproduz sons de instrumentos musicais, por enquanto de uma bateria, ao usuário clicar ou pressionar com teclado em seus botões.
+Alura MIDI is a digital interface (MIDI) musical instrument, which reproduces sounds of musical instruments, for the time being of a drum set, when the user clicks or presses its buttons with the keyboard.
 
 <img src="https://user-images.githubusercontent.com/3089882/136043109-1fc85faa-8cfb-4056-a144-98f0f75c2565.png" alt="Imagem do Alura MIDI" width="50%">
 
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Project features
 
-O MIDI tem um teclado digitial com 9 botões, cada botão reproduzirá o som de dado instrumento musical. O HTML carregará os arquivos de mídia com o som dos instrumentos através do elemento `<audio>`, e com o MIDI vamos controlar a reprodução destes arquivos de mídia através do clique em seus elementos `<button>`. Serão 9 sons diferentes.
+MIDI has a digital keyboard with 9 buttons, each button will play the sound of a given musical instrument. The HTML will load the media files with the sound of the instruments through the `<audio>` element, and with MIDI we will control the playback of these media files by clicking on their `<button>` elements. There will be 9 different sounds.
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and technologies used
 
-- `HTML`: O HTML tem um papel fundamental para a aplicação funcionar corretamente com a inserção dos elementos `<audio>` que irão prover para o JavaScript os controles de reprodução da mídia carregada. O HTML já virá pronto nos arquivos iniciais do curso;
-- `CSS`: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica, portanto indica quando os botões são pressionados por mouse ou teclado. O CSS já virá pronto nos arquivos iniciais do curso;
-- `JavaScript`: O JavaScript proporcionará programarmos a dinâmica de controle de reprodução de um som, que a princípio está sendo realizada pelo elemento `<audio>`, e passarmos este controle para os elementos `<button>`, com todo o cuidado de fazer um código inteligente, sem repetição, que cuida também os aspectos visuais com CSS dinâmico. Abaixo alguns tópicos abordados no curso:
+- `HTML`: HTML plays a fundamental role for the application to work correctly with the insertion of `<audio>` elements that will provide JavaScript with the playback controls for the loaded media. The HTML will already be ready in the initial course files;
+- `CSS`: CSS has a fundamental role to indicate the user's interaction with the graphical interface, therefore it indicates when the buttons are pressed by mouse or keyboard. The CSS will already be ready in the initial files of the course;
+- `JavaScript`: JavaScript will allow us to program the dynamic control of playing a sound, which at first is being carried out by the `<audio>` element, and we will pass this control to the `<button>` elements, with all the care to make an intelligent code , without repetition, which also takes care of the visual aspects with dynamic CSS. Below are some topics covered in the course:
   - `querySelector`;
   - `document`;
   - `const`;
@@ -27,16 +27,16 @@ O MIDI tem um teclado digitial com 9 botões, cada botão reproduzirá o som de 
   - `template string`;
   - `event handlers`;
 
-## 📁 Acesso ao projeto
+## 📁 Project access
 
-[Veja o projeto final do curso em funcionamento](https://aluramidi-alpha.vercel.app/).
+[See the final project of the course in action](https://aluramidi-alpha.vercel.app/).
 
-Neste repositório você tem acesso a todo o material produzido no curso.
+In this repository you have access to all the material produced in the course.
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Open and run the project
 
-Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador.
+To open and run the project, just open the `index.html` file in the browser.
 
-## 📚 Mais informações do curso
+## 📚 More course information
 
-Busque na plataforma da Alura o curso **JavaScript para web: crie páginas dinâmicas** publicado na Escola Frontend.
+Search on Alura's platform for the course **JavaScript para web: crie páginas dinâmicas** published in Escola Frontend.
